@@ -1,0 +1,8 @@
+{
+  "files.autoSave": "off",
+  "rust-analyzer.cargo.extraEnv": {},
+  "rust-analyzer.cargo.target": "aarch64-poky-linux-gnu",
+  "rust-analyzer.linkedProjects": [
+    "rust/Cargo.toml"
+  ]
+}

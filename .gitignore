@@ -1,0 +1,14 @@
+# .gitignore file
+
+# Meson
+/build
+
+# rust
+/target
+
+# Rust wrapper
+/rust/target
+
+# .clangd
+/.cache
+

@@ -1,0 +1,11 @@
+[toolchain]
+channel = "1.97.1"
+components = [
+  "rust-src",
+  "rustfmt",
+  "clippy",
+  # ???
+  # "rustfilt",
+]
+targets = ["aarch64-poky-linux-gnu"]
+

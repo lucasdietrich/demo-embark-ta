@@ -1,0 +1,12 @@
+# The TA sources are not part of the compilation database of the normal-world
+# build, they are parsed with the include paths of the TA dev kit.
+# Note: clangd merges this file with ../.clangd; the closest one wins on conflicts.
+CompileFlags:
+  CompilationDatabase: None
+  Add:
+    - --target=aarch64-linux-gnu
+    - -nostdlibinc
+    - -I/opt/amy/0.1.0/sysroots/cortexa35-poky-linux/usr/include/optee/export-user_ta/include
+    - -I/home/lucas/Projects/embark/workspace/ta/include
+    - -DARM64=1
+    - -D__LP64__=1

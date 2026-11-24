@@ -1,0 +1,18 @@
+[package]
+name = "myta"
+version = "0.1.0"
+edition = "2021"
+description = "Rust wrapper of the myta C library"
+
+[dependencies]
+
+[[example]]
+name = "demo"
+path = "examples/demo.rs"
+
+# read https://doc.rust-lang.org/cargo/reference/profiles.html
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
